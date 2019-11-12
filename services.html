@@ -11,7 +11,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="default.css">
-<link rel="shortcut icon" href="shfavicon.png">
+<link rel="shortcut icon" href="favicon.png">
 </head>
 <body>
         <!-- navbar-->
@@ -23,11 +23,12 @@
                 <div id="top">
                   <div class="container">
                     <div class="row">
-                      <div class="col-lg-6 offer mb-3 mb-lg-0"><a href="#" class="btn btn-success btn-sm">Offer of the day</a><a href="#" class="ml-1">Get FREE SHIPPING on orders over $50!</a></div>
+                      <div class="col-lg-6 offer mb-3 mb-lg-0"><a href="#" class="btn btn-primary btn-sm">Offer of the day</a><a href="#" class="ml-1">FREE SHIPPING with purchase of custom wig!</a></div>
                       <div class="col-lg-6 text-center text-lg-right">
                         <ul class="menu list-inline mb-0">
                           <li class="list-inline-item"><a href="#" data-toggle="modal" data-target="#login-modal">Login</a></li>
                           <li class="list-inline-item"><a href="register.html">Sign In</a></li>
+                          <li class="list-inline-item"><a href="#">Account</a></li>
                           <li class="list-inline-item"><a href="#">About</a></li>
                           <li class="list-inline-item"><a href="contact.html">Contact Us</a></li>
                           
@@ -64,7 +65,7 @@
                   
                 </div>
         <div class="bs-example">
-                <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <nav class="navbar navbar-expand-md navbar-white bg-white">
                     <a href="#" class="navbar-brand">
                         <img src="sh-lo.jpg" alt="scenehairlogo">
                     </a>
@@ -75,21 +76,23 @@
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav">
                             <a href="home.html" class="nav-item nav-link">Home</a>
-                            <a href="shop/html" class="nav-item nav-link">Shop</a>
+                            <a href="shop.html" class="nav-item nav-link">Shop</a>
                             <a href="services.html" class="nav-item nav-link active">Services</a>
                             <a href="howto.html" class="nav-item nav-link">How-To's</a>
                         </div>
                         <div class="navbar-nav ml-auto">
+                            <div id="basket-overview" class="navbar-collapse collapse d-none d-lg-block"><a href="basket.html" class="btn btn-primary navbar-btn"><i class="fa fa-shopping-cart"></i><span> View Cart</span></a></div>
                                 <form class="form-inline">
                                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                                        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
                                       </form>
                         </div>
                     </div>
                 </nav>
             </div>
-            <table class="table table-striped">
-                    <thead>
+            
+            <table style="margin-top: 20px" class="table table-striped">
+                    <thead class="thead-dark">
                       <tr>
                         <th scope="col">Services</th>
                         <th scope="col">Time</th>
@@ -97,40 +100,42 @@
                       </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                         <th scope="row">Traditional Sew Install w/ leaveout |   Includes: Shampoo, condition, trim, braid down, optional net application, sew and style. Hair not is not included in install pricing.</th>
+                        <tr class="table-light">
+                         <td>Traditional Sew Install w/ leaveout |   Includes: Shampoo, condition, trim, braid down, optional net application, sew and style. Hair not is not included in install pricing.</td>
                             <td>120 min</td>
                             <td>$160</td>
                              </tr>
                             <tr>
-                            <th scope="row"> Sew in Maintenance check |  Includes: Shampoo, condition, re-tighten, and basic style.</th>
+                            <td> Sew in Maintenance check |  Includes: Shampoo, condition, re-tighten, and basic style.</td>
                             <td>135 min</td>
                              <td>$550</td>
                             </tr>
-                    <tr>
-                    <th scope="row">Full Unit Application |  Includes: Braid down, customized wig application, and basic style. Come with hair already washed. Hair not included in install pricing.</th>
+                     <tr class="table-light">
+                    <td>Full Unit Application |  Includes: Braid down, customized wig application, and basic style. Come with hair already washed. Hair not included in install pricing.</td>
                     <td>60 min</td>
                     <td>$150</td>
                      </tr>            
                       <tr>
-                        <th scope="row">360 Wig Hair, Make, and Install |  Includes: Shampoo, condition, braid down, customized wig application, and basic style. Hair not included in install pricing.</th>
+                        <td>360 Wig Hair, Make, and Install |  Includes: Shampoo, condition, braid down, customized wig application, and basic style. Hair not included in install pricing.</td>
                         <td>135 min</td>
                         <td>$550</td>
                       </tr>
-                      <tr>
-                        <th scope="row">Frontal Wig Reinstall (Remove, Wash, Install) | Includes: Removal of wig, shampoo, condition, braid down, and reapplication.</th>
+                      <tr class="table-light">
+                        <td>Frontal Wig Reinstall (Remove, Wash, Install) | Includes: Removal of wig, shampoo, condition, braid down, and reapplication.</td>
                         <td>120 min</td>
                         <td>$140</td>
                   
                       </tr>
                       <tr>
-                        <th scope="row">Wig Prep (Wash and Braid Down)| Includes: shampoo, condition, braid down. </th>
+                        <td>Wig Prep (Wash and Braid Down)| Includes: shampoo, condition, braid down. </td>
                         <td>30 min</td>
                         <td>$25</td>
                         
                       </tr>
                     </tbody>
                   </table>
+
+                  <div class="left"><a href="https://www.styleseat.com" class="btn btn-outline-primary btn-lg">Book Appointment</a></div>
     
             <!--*** FOOTER ***
             _________________________________________________________
@@ -141,8 +146,7 @@
                   <div class="col-lg-3 col-md-6">
                     <h4 class="mb-3">Pages</h4>
                     <ul class="list-unstyled">
-                      <li><a href="text.html">About us</a></li>
-                      <li><a href="text.html">Terms and conditions</a></li>
+                      <li><a href="text.html">About</a></li>
                       <li><a href="faq.html">FAQ</a></li>
                       <li><a href="contact.html">Contact us</a></li>
                     </ul>
@@ -151,21 +155,23 @@
                     <ul class="list-unstyled">
                       <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a></li>
                       <li><a href="register.html">Sign Up</a></li>
+                      <li><a href="account.html">Account</a></li>
                     </ul>
                   </div>
                   <!-- /.col-lg-3-->
                   <div class="col-lg-3 col-md-6">
                     <h4 class="mb-3">Quick Links</h4>
                     <ul class="list-unstyled">
-                      <li><a href="category.html">Shop</a></li>
-                      <li><a href="category.html">Services</a></li>
-                      <li><a href="category.html">How To's</a></li>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="services.html">Services </a></li>
+                        <li><a href="howto.html">How-To's</a></li>
                     </ul>
                   </div>
                   <!-- /.col-lg-3-->
                   <div class="col-lg-3 col-md-6">
                     <h4 class="mb-3">Where to find us</h4>
-                    <p><strong>Scene Hair</strong><br>809 Division St.<br><Suite 2500<br>Nashville, TN 37208<br></p><a href="contact.html">Go to contact page</a>
+                    <p><strong>Scene Hair</strong><br>809 Division St.<br><Suite 2500<br>Nashville, TN 37208<br></p>
                     <hr class="d-block d-md-none">
                   </div>
                   <!-- /.col-lg-3-->

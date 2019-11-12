@@ -104,7 +104,7 @@ h1 {
 *
 */
 .navbar {
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 1px solid #fff;
   background-color: #fff;
 }
 
@@ -283,6 +283,30 @@ h1 {
 
 /*
 *
+* ======================================================================
+* CONTAINER
+* ======================================================================
+*
+*/
+.container {
+  margin: 0 auto;
+     text-align: center;
+}
+
+.product-container h2 
+{
+    text-align: center;
+    background: #fff;
+    color: #4fbfa8;
+    width:200px;
+    font-size:24px;
+    padding: 5px;
+    height:40px;
+}
+
+
+/*
+*cont
 * ======================================================================
 * FOOTER
 * ======================================================================
@@ -1184,7 +1208,7 @@ STYLE SWITCHER FOR DEMO
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .nav-link.active {
+.navbar-white .navbar-nav .nav-link.active {
   color: rgba(0, 0, 0, 0.9);
 }
 

@@ -65,7 +65,7 @@
                   
                 </div>
         <div class="bs-example">
-            <nav class="navbar navbar-expand-md navbar-white bg-white">
+                <nav class="navbar navbar-expand-md navbar-white bg-white">
                     <a href="#" class="navbar-brand">
                         <img src="sh-lo.jpg" alt="scenehairlogo">
                     </a>
@@ -75,8 +75,8 @@
             
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav">
-                            <a href="home.html" class="nav-item nav-link">Home</a>
-                            <a href="shop.html" class="nav-item nav-link active">Shop</a>
+                            <a href="home.html" class="nav-item nav-link active">Home</a>
+                            <a href="shop.html" class="nav-item nav-link">Shop</a>
                             <a href="services.html" class="nav-item nav-link">Services</a>
                             <a href="howto.html" class="nav-item nav-link">How-To's</a>
                         </div>
@@ -90,168 +90,136 @@
                     </div>
                 </nav>
             </div>
-            <div class="product-container">
-                <h2 style= "margin-top: 10px">Wigs</h2>
-                <div style="margin-bottom: 20px" class="row">
-                  <div class="col-md-3 col-sm-6">
-                    <div class="card text-center">
-                      <div class="card-block">
-                          <a href="detail2.html">
-                        <img src="img/product-4.jpeg" class="card-img-top" alt="..."></a>
-                        <div class="product-bottom text-center">
-                       <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star-half-full"></i>
-                      <h3>Brazilian Curly Custom Wig</h3>
-                      <h5>$350.00</h5>
-                      <a style="margin-top: 10px" href="#" class="btn btn-primary">Add to cart</a>
-                     </div>
-                    </div>
+
+            <div id="all">
+                    <div id="content">
+                      <div class="container">
+                        <div style="margin-top:20px" class="row">
+                        
+                          <div id="checkout" class="col-lg-9">
+                            <div class="box">
+                              <form method="get" action="checkout2.html">
+                                <h1>Shipping Address</h1>
+                                <div class="nav flex-column flex-md-row nav-pills text-center"><a href="checkout1.html" class="nav-link flex-sm-fill text-sm-center active"> <i class="fa fa-map-marker">                  </i>Address</a><a href="#" class="nav-link flex-sm-fill text-sm-center disabled"> <i class="fa fa-truck">                       </i>Delivery Method</a><a href="#" class="nav-link flex-sm-fill text-sm-center disabled"> <i class="fa fa-money">                      </i>Payment Method</a><a href="#" class="nav-link flex-sm-fill text-sm-center disabled"> <i class="fa fa-eye">                     </i>Order Review</a></div>
+                                <div class="content py-3">
+                                  <div class="row">
+                                    <div class="col-md-6">
+                                      <div class="form-group">
+                                        <label for="firstname">Firstname</label>
+                                        <input id="firstname" type="text" class="form-control">
+                                      </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                      <div class="form-group">
+                                        <label for="lastname">Lastname</label>
+                                        <input id="lastname" type="text" class="form-control">
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- /.row-->
+                                  <div class="row">
+                                    <div class="col-md-6">
+                                      <div class="form-group">
+                                        <label for="company">Company</label>
+                                        <input id="company" type="text" class="form-control">
+                                      </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                      <div class="form-group">
+                                        <label for="street">Street</label>
+                                        <input id="street" type="text" class="form-control">
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- /.row-->
+                                  <div class="row">
+                                    <div class="col-md-6 col-lg-3">
+                                      <div class="form-group">
+                                        <label for="city">Company</label>
+                                        <input id="city" type="text" class="form-control">
+                                      </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3">
+                                      <div class="form-group">
+                                        <label for="zip">ZIP</label>
+                                        <input id="zip" type="text" class="form-control">
+                                      </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3">
+                                      <div class="form-group">
+                                        <label for="state">State</label>
+                                        <select id="state" class="form-control"></select>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3">
+                                      <div class="form-group">
+                                        <label for="country">Country</label>
+                                        <select id="country" class="form-control"></select>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                      <div class="form-group">
+                                        <label for="phone">Telephone</label>
+                                        <input id="phone" type="text" class="form-control">
+                                      </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                      <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input id="email" type="text" class="form-control">
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- /.row-->
+                                </div>
+                                <div class="box-footer d-flex justify-content-between"><a href="basket.html" class="btn btn-outline-secondary"><i class="fa fa-chevron-left"></i>Back to Basket</a>
+                                  <button type="submit" class="btn btn-primary">Continue to Delivery Method<i class="fa fa-chevron-right"></i></button>
+                                </div>
+                              </form>
+                            </div>
+                            <!-- /.box-->
+                          </div>
+                          <!-- /.col-lg-9-->
+                          <div class="col-lg-3">
+                            <div id="order-summary" class="card">
+                              <div class="card-header">
+                                <h3 class="mt-4 mb-4">Order summary</h3>
+                              </div>
+                              <div class="card-body">
+                                <p class="text-muted">Shipping and additional costs are calculated based on the values you have entered.</p>
+                                <div class="table-responsive">
+                                  <table class="table">
+                                    <tbody>
+                                      <tr>
+                                        <td>Order subtotal</td>
+                                        <th>$650.00</th>
+                                      </tr>
+                                      <tr>
+                                        <td>Shipping and handling</td>
+                                        <th>FREE</th>
+                                      </tr>
+                                      <tr>
+                                        <td>Tax</td>
+                                        <th>$0.00</th>
+                                      </tr>
+                                      <tr class="total">
+                                        <td>Total</td>
+                                        <th>$650.00</th>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- /.col-lg-3-->
+                        </div>
+                      </div>
                     </div>
                   </div>
-                  <div class="col-md-3 col-sm-6">
-                      <div class="card text-center">
-                        <div class="card-block">
-                          <a href="detail1.html">
-                          <img src="img/product-1.jpg" class="card-img-top" alt="..."></a>
-                          <div class="product-bottom text-center">
-                         <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <h3>Brazilian Body Wave Custom Wig</h3>
-                        <h5>$300.00</h5>
-                        <a style="margin-top: 10px" href="#" class="btn btn-primary">Add to cart</a>
-                       </div>
-                      </div>
-                      </div>
-                    </div>
 
-                    <div class="col-md-3 col-sm-6">
-                        <div class="card text-center">
-                          <div class="card-block">
-                              <a href="detail3.html">
-                            <img src="img/product-7.jpg" class="card-img-top" alt="..."></a>
-                            <div class="product-bottom text-center">
-                           <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star-half-full"></i>
-                          <i class="fa fa-star-o"></i>
-                          <h3>Brazilian Straight Bob Custom Wig</h3>
-                          <h5>$200.00</h5>
-                          <a style="margin-top: 10px" href="#" class="btn btn-primary">Add to cart</a>
-                         </div>
-                        </div>
-                        </div>
-                      </div>
-  
 
-                    <div class="col-md-3 col-sm-6">
-                        <div class="card text-center">
-                          <div class="card-block">
-                              <a href="detail4.html">
-                            <img src="img/product-3.jpg" class="card-img-top" alt="..."></a>
-                            <div class="product-bottom text-center">
-                           <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star-o"></i>
-                          <h3>Brazilian Jerry Curl Custom Wig</h3>
-                          <h5>$250.00</h5>
-                          <a style="margin-top: 10px" href="#" class="btn btn-primary">Add to cart</a>
-                         </div>
-                        </div>
-                        </div>
-                      </div>
-
-              </div>
-              <h2 style= "margin-top: 10px">Bundles</h2>
-              <div style="margin-bottom: 20px"class="row">
-                  <div class="col-md-3 col-sm-6">
-                    <div class="card text-center">
-                      <div class="card-block">
-                          <a href="detail5.html">
-                        <img src="img/product-5.jpg"class="card-img-top" alt="..."></a>
-                        <div class="product-bottom text-center">
-                       <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star-o"></i>
-                      <h3>Brazilian Ombre Body Wave with Closure Bundle</h3>
-                      <h5>$200.00</h5>
-                      <a style="margin-top: 10px" href="#" class="btn btn-primary">Add to cart</a>
-                     </div>
-                    </div>
-                    </div>
-                  </div>
-                  <div class="col-md-3 col-sm-6">
-                      <div class="card text-center">
-                        <div class="card-block">
-                            <a href="detail6.html">
-                          <img src="img/product-2.jpg" class="card-img-top" alt="..."></a>
-                          <div class="product-bottom text-center">
-                         <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o"></i>
-                        <i class="fa fa-star-o"></i>
-                        <h3>Brazilian Straight with Closure Bundle</h3>
-                        <h5>$175.00</h5>
-                        <a style="margin-top: 10px" href="#" class="btn btn-primary">Add to cart</a>
-                       </div>
-                      </div>
-                      </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6">
-                        <div class="card text-center">
-                          <div class="card-block">
-                              <a href="detail7.html">
-                            <img src="img/product-8.jpg" class="card-img-top" alt="..."></a>
-                            <div class="product-bottom text-center">
-                           <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star-o"></i>
-                          <i class="fa fa-star-o"></i>
-                          <h3>Brazilian Deep Wave with Closure Bundle</h3>
-                          <h5>$150.00</h5>
-                          <a style="margin-top: 10px" href="#" class="btn btn-primary">Add to cart</a>
-                         </div>
-                        </div>
-                        </div>
-                      </div>
-  
-
-                    <div class="col-md-3 col-sm-6">
-                        <div class="card text-center">
-                          <div class="card-block">
-                              <a href="detail8.html">
-                            <img src="img/product-6.jpeg" class="card-img-top" alt="..."></a>
-                            <div class="product-bottom text-center">
-                           <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star-o"></i>
-                          <i class="fa fa-star-o"></i>
-                          <h3>Brazilian Body Wave with Closure Bundle</h3>
-                          <h5>$100.00</h5>
-                          <a style="margin-top: 10px" href="#" class="btn btn-primary">Add to cart</a>
-                         </div>
-                        </div>
-                        </div>
-                      </div>
-
-              </div>
-            </div>
-           
-            <!--*** FOOTER ***
+                       <!--*** FOOTER ***
             _________________________________________________________
             -->
             <div id="footer">
